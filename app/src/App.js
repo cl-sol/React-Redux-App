@@ -8,9 +8,10 @@ function App() {
     <div className="App">
       <header className="header">
         <h1>Kanye Sayings</h1>
-        <Quote />
-        
       </header>
+      <div className="quote">
+        <Quote />
+      </div>
     </div>
   );
 }

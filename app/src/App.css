@@ -1,5 +1,11 @@
+body {
+  background-image: url("./images/landscape-photograph-of-body-of-water-1001682.jpg");
+  background-size: cover;
+}
+
 .App {
   text-align: center;
+  padding: 150px;
 }
 
 .App-logo {
@@ -13,7 +19,27 @@
   }
 }
 
-.App-header {
+.header {
+  /* display: flex;
+  justify-content: center; */
+  font-family: 'Permanent Marker', cursive;
+  font-size: 24px;
+}
+
+.quote {
+  font-family: 'Libre Baskerville', serif;
+}
+
+button {
+  padding: 6px 8px;
+  font-size: 16px;
+  background: black;
+  color: white;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,7 +48,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 .App-link {
   color: #61dafb;
@@ -36,3 +62,5 @@
     transform: rotate(360deg);
   }
 }
+
+
